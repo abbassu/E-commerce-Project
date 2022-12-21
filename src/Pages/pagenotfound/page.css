@@ -1,0 +1,27 @@
+.page-not-found{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(194, 209, 210);
+}
+
+.wrapper{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-title{
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-body{
+    width: 100%;
+}
+
+
+
+

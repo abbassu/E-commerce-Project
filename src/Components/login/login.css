@@ -1,0 +1,13 @@
+.ll{
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.ff{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    font-size: 19px;
+    font-weight:500;
+    height: 90px;
+}

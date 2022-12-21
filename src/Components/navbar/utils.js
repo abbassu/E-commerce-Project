@@ -1,15 +1,29 @@
-export const navStruct= [{
-    name:"Product",
-    isActive: true,
-    link:'/product'
-},
+export const navStruct= [
+    
 {
-    name:"Categotry",
+        name:"Categotry",
+        isActive: true,
+        
+        link:'/'
+}, 
+{
+    name:"Product",
     isActive: false,
-    cssClass:'custom-puty'
+    link:'/product'
+    
 },
+
+{
+    name:"Info",
+    isActive: false,
+    link:'/info?data=something',
+    data:'somedata'
+},
+
 {
     name:"Login",
-    isActive: false
+    isActive: false,
+    link:'/login',
+    cssClass: "lll"
 }
 ]
